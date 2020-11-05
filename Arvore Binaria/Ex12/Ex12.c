@@ -49,7 +49,7 @@ int main(void) {
 				arv(NULL,
 					4,
 					NULL)));
-    removerArvore(I);
+    I = removerArvore(I);
     exibe(I,0);
 	return 0;
 }
